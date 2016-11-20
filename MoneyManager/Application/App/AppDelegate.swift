@@ -15,6 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        let noteVC = NoteTableViewController()
+        noteVC.view.backgroundColor = .white
+        let rootNavi = UINavigationController(rootViewController: noteVC)
+        
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        window.rootViewController = rootNavi
+        self.window = window
+        
         // Override point for customization after application launch.
         return true
     }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5240DD871DE182F200ACB7CA /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5240DD861DE182F200ACB7CA /* NoteTableViewController.swift */; };
+		5240DD8A1DE1830400ACB7CA /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5240DD881DE1830400ACB7CA /* NoteCell.swift */; };
+		5240DD8B1DE1830400ACB7CA /* NoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5240DD891DE1830400ACB7CA /* NoteCell.xib */; };
 		528850091DD5C751009C953B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52884FFB1DD5C751009C953B /* AppDelegate.swift */; };
 		5288500A1DD5C751009C953B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52884FFC1DD5C751009C953B /* ViewController.swift */; };
 		5288500B1DD5C751009C953B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528850021DD5C751009C953B /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5240DD861DE182F200ACB7CA /* NoteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
+		5240DD881DE1830400ACB7CA /* NoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		5240DD891DE1830400ACB7CA /* NoteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoteCell.xib; sourceTree = "<group>"; };
 		52884FE41DD5AF55009C953B /* MoneyManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52884FFB1DD5C751009C953B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52884FFC1DD5C751009C953B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +42,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5240DD851DE182DF00ACB7CA /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				5240DD881DE1830400ACB7CA /* NoteCell.swift */,
+				5240DD891DE1830400ACB7CA /* NoteCell.xib */,
+				5240DD861DE182F200ACB7CA /* NoteTableViewController.swift */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
 		52884FDB1DD5AF55009C953B = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +150,7 @@
 		528850071DD5C751009C953B /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				5240DD851DE182DF00ACB7CA /* Note */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -209,6 +226,7 @@
 				5288500C1DD5C751009C953B /* Info.plist in Resources */,
 				5288500B1DD5C751009C953B /* Assets.xcassets in Resources */,
 				5288500E1DD5C751009C953B /* Main.storyboard in Resources */,
+				5240DD8B1DE1830400ACB7CA /* NoteCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5240DD871DE182F200ACB7CA /* NoteTableViewController.swift in Sources */,
+				5240DD8A1DE1830400ACB7CA /* NoteCell.swift in Sources */,
 				5288500A1DD5C751009C953B /* ViewController.swift in Sources */,
 				528850091DD5C751009C953B /* AppDelegate.swift in Sources */,
 			);
